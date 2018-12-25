@@ -2,7 +2,7 @@
 
 Eksekusi via Termux
 
-python webdav.py sitevuln.com xroot.htm
+python webdav.py sitevuln.com root.htm
 
 My Youtube : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
 
