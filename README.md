@@ -4,7 +4,18 @@
 
 pkg update && pkg upgrade
 
-pkg install -y git python2 curl php wget 
+pkg install python2
+
+pkg install openssl curl
+
+pkg install libcurl
+
+pip2 install urllib3 chardet certifi idna requests
+
+
+
+
+
 
 git clone https://github.com/boychongzen18/webdav.git
 
