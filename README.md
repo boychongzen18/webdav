@@ -52,6 +52,8 @@ My Website    : http://hackingforlive.cf,,https://hackingforlive.wordpress.com
 
 My Facebok    : https://web.facebook.com/xroot.xroot.7
 
-Moto : Berbagi Itu Indah
+MyTeam HFL : https://defacer.id/archive/team/hackingforlive
 
-Regard Boychongzen aka Xroot
+# Moto : Berbagi Itu Indah
+
+# Regard Boychongzen aka Xroot
