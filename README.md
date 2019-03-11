@@ -36,7 +36,7 @@ python webdav.py sitevuln.com xroot.htm
 
 My Youtube    : https://www.youtube.com/channel/UCKdOPQ_iIXcqK17PB_2RMdQ
 
-Link Tutorial : https://youtu.be/CPsFAoYt4Kc
+Link Tutorial : 
 
 My Website    : http://hackingforlive.cf,,https://hackingforlive.wordpress.com
 
