@@ -12,11 +12,6 @@ pkg install libcurl
 
 pip2 install urllib3 chardet certifi idna requests
 
-
-
-
-
-
 git clone https://github.com/boychongzen18/webdav.git
 
 cd webdav
@@ -24,6 +19,11 @@ cd webdav
 chmod +x webdav.py
 
 python2 webdav.py sitevuln.com xroot.htm
+
+# Screenshot Via Termux
+![be](https://raw.githubusercontent.com/boychongzen18/webdav/master/termux.png)
+# Screenshot Live Target 
+![be](https://raw.githubusercontent.com/boychongzen18/webdav/master/termux1.png)
 
 ================================================================================
 # Eksekusi via Window
@@ -38,7 +38,6 @@ chmod 777 webdav.py
 
 python webdav.py sitevuln.com xroot.htm
 
-================================================================================
 # Screenshot Via Windows
 ![be](https://raw.githubusercontent.com/boychongzen18/webdav/master/webdav.png)
 
